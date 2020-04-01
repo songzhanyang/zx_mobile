@@ -1,0 +1,159 @@
+ /*公共样式*/
+ html,
+ body,
+ div,
+ ul,
+ li,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ dl,
+ dt,
+ dd,
+ ol,
+ form,
+ input,
+ textarea,
+ th,
+ td,
+ select {
+     margin: 0;
+     padding: 0;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+ }
+
+ body {
+     font-family: "Microsoft YaHei";
+     font-size: 30px!important;
+     color: #333;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-weight: normal;
+ }
+
+ ul,
+ ol {
+     list-style: none;
+ }
+
+ img {
+     border: none;
+     vertical-align: middle;
+ }
+
+ a {
+     text-decoration: none;
+     color: #232323;
+ }
+
+ table {
+     border-collapse: collapse;
+     table-layout: fixed;
+ }
+
+ input,
+ textarea {
+     outline: none;
+     border: none;
+ }
+
+ textarea {
+     resize: none;
+     overflow: auto;
+ }
+
+ .clearfix {
+     zoom: 1;
+ }
+
+ .clearfix:after {
+     content: ".";
+     width: 0;
+     height: 0;
+     visibility: hidden;
+     display: block;
+     clear: both;
+     overflow: hidden;
+ }
+
+ .fl {
+     float: left
+ }
+
+ .fr {
+     float: right
+ }
+
+ .tl {
+     text-align: left;
+ }
+
+ .tc {
+     text-align: center
+ }
+
+ .tr {
+     text-align: right;
+ }
+
+ .ellipse {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+ .inline {
+     display: inline-block;
+     *display: inline;
+     *zoom: 1;
+ }
+.butn{
+    border: 1px solid transparent;
+    background-color: #04CBD8;
+    border-color: #04CBD8;
+    vertical-align: middle;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    padding: 15px 35px 16px;
+    font-size: 32px;
+    border-radius: 16px;
+    transition: color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear;
+}
+.inp {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    padding: 10px 17px;
+    font-size: 32px;
+    border: 1px solid #dcdee2;
+    border-radius: 16px;
+    color: #515a6e;
+    background-color: #fff;
+    background-image: none;
+    position: relative;
+    cursor: text;
+    transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;
+}

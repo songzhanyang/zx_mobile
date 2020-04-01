@@ -10,9 +10,9 @@ module.exports = {
                 //单个的css语句需过滤的情况下，可以使用PX或Px单位
                 plugins:[pxRem({
                     autoprefixer:{},
-                    rootValue: 37.5,
+                    rootValue: 75,
                     propList: ["*"],
-                    selectorBlackList:[".ig-",".dp-"]
+                    selectorBlackList:[".ig-",".dp-","ivu-"]
                 })]
             }
         }
@@ -23,7 +23,7 @@ module.exports = {
         disableHostCheck: true,
         proxy: {
             '/': {  //代理地址
-                target: 'http://kaoshi.kanee.top/',  //需要代理的地址
+                target: 'http://api.kaoshi.kanee.top/api',  //需要代理的地址
                 changeOrigin: true,  //是否跨域
             }
         }
