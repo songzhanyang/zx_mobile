@@ -47,6 +47,10 @@ export default [
         meta:{
             title: '考试'
         }
+    },
+    {
+        path: '*',
+        redirect: '/login'
     }
 ];
 
